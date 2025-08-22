@@ -5913,3 +5913,11 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
+
+sh_binary {
+    name: "motsettings",
+    owner: "motorola",
+    src: "proprietary/system_ext/bin/motsettings",
+    filename: "motsettings",
+    system_ext_specific: true,
+}
